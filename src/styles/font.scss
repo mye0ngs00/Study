@@ -1,0 +1,9 @@
+@for $i from 1 through 100 {
+  .font-#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+.center {
+  text-align: center;
+}

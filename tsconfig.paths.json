@@ -5,7 +5,9 @@
       "@styles/*": ["styles/*"],
       "@pages/*": ["pages/*"],
       "@containers/*": ["containers/*"],
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@templates/*": ["templates/*"],
+      "@utils": ["utils/index.ts"]
     }
   }
 }

@@ -1,7 +1,12 @@
 import React, { ReactElement } from 'react'
 
-const Calendar = (): ReactElement => {
-  return <div>Collabee assignment init.</div>
+const CalendarPage = (): ReactElement => {
+  return (
+    <div className="calendar-wrapper">
+      <div />
+      <div />
+    </div>
+  )
 }
 
-export default Calendar
+export default CalendarPage

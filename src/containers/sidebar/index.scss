@@ -1,0 +1,7 @@
+@import '@styles/box.scss';
+
+div.sidebar-wrapper {
+  min-width: 200px;
+  height: 100vh;
+  box-shadow: $container-shadow;
+}

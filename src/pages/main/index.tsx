@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 
-const App = (): ReactElement => {
+const MainPage = (): ReactElement => {
   return <div>Collabee assignment init.</div>
 }
 
-export default App
+export default MainPage
