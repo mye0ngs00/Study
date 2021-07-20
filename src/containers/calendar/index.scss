@@ -1,8 +1,6 @@
 @import '@styles/box.scss';
 
-div.sidebar-wrapper {
-  min-width: 200px;
-  height: 100vh;
+div.calendar-container-wrapper {
   box-shadow: $container-shadow;
   background-color: #fff;
 }
