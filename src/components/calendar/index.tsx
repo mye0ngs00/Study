@@ -1,4 +1,4 @@
-import { generateKey } from '@utils'
+import { generateKey, pad } from '@utils'
 import React, { ReactElement } from 'react'
 import './index.scss'
 
@@ -40,7 +40,7 @@ const CalendarPage = (): ReactElement => {
                 ? React.createElement(
                     'td',
                     { rowSpan: 4 },
-                    `${hours}:${minutes}`,
+                    `${pad(hours, 2)}:${pad(minutes, 2)}`,
                   )
                 : ''
             if (pointer.endAt >= item) {
