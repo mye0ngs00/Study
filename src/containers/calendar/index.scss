@@ -3,4 +3,17 @@
 div.calendar-container-wrapper {
   box-shadow: $container-shadow;
   background-color: #fff;
+
+  & > div.calendar-frame {
+    display: grid;
+    grid-template-columns: repeat(7, 130px);
+    gap: 3px;    
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    & > div {
+      border: 1px solid #ccc;
+      height: 100px;
+    }
+  }
 }

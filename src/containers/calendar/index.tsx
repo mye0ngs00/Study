@@ -4,11 +4,65 @@ import './index.scss'
 const CalendarContainer = (): ReactElement => {
   return (
     <div className="calendar-container-wrapper">
-      <div> 오늘 날짜: 2021. 07. 19.</div>
-      <div>셀렉트 박스</div> ~ <div>셀렉트 박스</div>
-      <div>07 JUL</div>
-      <div>2021</div>
-      <div> grid template으로 7x6 만들고 위에 헤더 별도로 7x1</div>
+      <div>{new Date().toString()}</div>
+      <header>
+        <div>07</div>
+        <div>JUL</div>
+        <div>2021</div>
+      </header>
+      <div className="calendar-frame">
+        <div>SUN</div>
+        <div>MON</div>
+        <div>TUE</div>
+        <div>WED</div>
+        <div>THU</div>
+        <div>FRI</div>
+        <div>SAT</div>
+      </div>
+      <div className="calendar-frame">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   )
 }
